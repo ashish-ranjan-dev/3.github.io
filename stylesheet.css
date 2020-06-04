@@ -1,0 +1,238 @@
+*{
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+	float:left;
+	font-weight: bolder;
+	font-size: 30px;
+	font-family: serif;
+	padding-right: 15px ;
+}
+
+header{
+	background-color: rgba(34, 49, 52, 0.9);
+	color: #FFD700;
+	border:5px solid #FF0000;
+	height: 90px;
+	border-top-color:#20B2AA;
+	
+	
+	
+}
+body{
+	margin:0;
+	font-family: "Lucida Grande"
+	width:100%;
+	height: 100%;
+	background-image: url(http://miro.medium.com/max/1104/1*ICBkNweI8bSWJPOG5vFIog.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.container{
+	border:2px solid black;
+	margin:20px 15px;
+	background-color: #7CFC00;
+	width: 40%;
+	float: left;
+	text-align: center;
+	border-radius: 20px;
+	height: 200px;
+	overflow: auto;
+}
+.row{
+	text-align: right;
+	margin-left: 150px;
+	
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  
+  
+}
+.fa {
+  margin-right: 5px;
+}
+
+
+.chicken{
+	border:5px solid blue;
+	border-radius: 20px;
+	background-color: #20B2AA;
+	
+}
+.sushi{
+	border:5px solid orange;
+	border-radius: 20px;
+background-color: #20B2AA;
+	}
+.beef{
+	border:5px solid red;
+	border-radius: 20px;
+	background-color: #20B2AA;
+}
+.soup{
+	border:5px solid purple;
+	border-radius: 20px;
+	background-color: #20B2AA;
+}
+.burger{
+	border:5px solid black;
+	border-radius: 20px;
+	background-color: #20B2AA;
+}
+.chowmein{
+	border:5px solid brown;
+	border-radius: 20px;
+	background-color: #20B2AA;
+}
+@media(max-width: 1000px){
+.container{
+	width: 50%;
+	
+}
+.menu-icon{
+	display: block;
+}
+}
+
+/*
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+}
+
+/*TABLET VIEW*/
+/*
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4,.col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+    float: left;
+  }
+  .col-md-1{
+    width: 8.33%
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+*/
+
+/* Mobile view */
+/*
+@media (max-width: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  float: left;
+  }
+
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+*/
